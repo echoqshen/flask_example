@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flask Template Example</title>
+  </head>
+  <body>
+    <div class="container">
+      <p>Your result: {{my_result}}</p>
+      <p>Value from the inputs_list: {{my_list[1]}}</p>
+      <p>Loop through the inputs_list:</p>
+      <ul>
+        {% for n in my_list %}
+        <li>{{n}}</li>
+        {% endfor %}
+      </ul>
+    </div>
+<!--<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script> -->
+
+  </body>
+</html>
